@@ -63,7 +63,7 @@ mysample3<-select(mysample2, Index1, Index2, team1, team2 )
 mysample4<-summary(mysample3)
 print(mysample4)
 
-#TASK: Revised 
+#TASK: Revised code using piping
 revised_sample <- mysample %>%
   arrange(date) %>%
   filter(spi1<80) %>%
